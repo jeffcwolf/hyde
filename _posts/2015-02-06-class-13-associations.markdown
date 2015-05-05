@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Class 13: Feb. 6, 2015 [Validation and Associations]"
+date:   2015-02-06 17:08:21
+categories: starter league
+---
+
+[I was not physically present at this class on account of an urgent out of town commitment but I was able to follow along with the video lecture, and this was my takeaway]
+
+In this class, Arjun (rather than Raghu who was also away) introduced us to two newish concepts: data validation and database associations.
+
+<strong>DATA VALIDATION</strong>
+
+When we provide our users forms, we need to ensure that the data they create is valid. Our database should only hold valid data. So, how do we ensure data validation, especially through forms? We could do this, on the one hand, along with every form we create or update, adding HTML to each form to require the user to input data of a certain type and format. Or we could add something to our controllers to do the same. But both of these approaches are inefficient, for what we really want to do is ensure that the data that gets saved in the database is valid. That's the layer that is critical. We need, in other words, model-level validation. Arjun walked us through a few ways to add validation to our Rails models, including :presence, :validates, and creating our own custom validations in Rails, using, for instance, regular expressions (and he pointed us to the cool website, <a title="Rubular" href="http://www.rubular.com" target="_blank">Rubular.com</a> to test these). We place all the data validation in the relevant Model Controller, for that is the gateway into the database. Arjun also emphasised that we will learn how to be very specific with how we write our validations in order to catch all the possible errors we want to avoid. Finally, we learned how to ask Rails what the data validation errors are (errors.full_messages) and to print those errors in the relevant view template so that the user knows what to correct.
+
+<strong>DATABASE ASSOCIATIONS (An Introduction)</strong>
+
+The second half of the class was an introduction - a taste - of what we will focus on this week, namely how to connect our database tables together. As of now, we have been working with tables independently of each other, but it's clear that the real power will come only once we can associate tables with each other. Arjun briefly introduced (though we will get into it in more detail this week) the concept of two tables relating to each other in a 'has_many' relation or a 'belongs_to' relation. From my experience quite a number of years ago, working with databases in Microsoft Access, this all seems very familiar.
+
+In any case, we use the rails migration command to change the structure of our database tables), if necessary. And Arjun noted that the the Rails Guide to Active Record Migration is actually quite helpful here to learn about how this works. He noted that the database structure and the app structure are totally independent of each other; if we change the database structure, we then have to go into the app and change things to reflect that (e.g. the view templates). The final notion we were introduced to here was the concept of creating a new method within our Model class.  And Arjun showed us how to do this using an elegant 'self' method definition inside that class to refer to the instance of that class that we are working with. I assume we'll learn more about this as we dive in to the details of Database Associations, beginning today. In short, this marks the beginning of how we are going to connect all our models/databases together from now on. And once we have the concept of Associations under our belts, we will truly be able to build functional apps that reflect whatever ideas we want to create. This appears to be the last major concept that we need to master in order to have the foundations of building apps with Rails in our toolkit (we shall see). We still have to learn about sign-ins, etc, but the next week will be critical to learning about this stuff, and after next week we will be in a strong position to create most of the components of our own apps.

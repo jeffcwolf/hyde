@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Class 5: Jan. 14, 2015 [Ruby]"
+date:   2015-01-15 02:05:08
+categories: starter league
+---
+
+Today was our first full day learning Ruby. We focused on high-level issue issues with variables, methods, and arrays.
+
+One thing I learned today that was very helpful to know was the <a title="String Interpolation in Ruby" href="http://ruby.about.com/od/sz/g/String-Interpolation.htm" target="_blank">string interpolation</a> operator #{}. It has always felt clunky to me to have to keep track of spaces and object conversions when printing to the screen. Using the String Interpolation operator avoids some of these headaches.
+
+Another exciting moment in today's class, for me at least, was seeing how easy it is to create your own methods in Ruby. One really starts to get the sense of how, little by little, one can produce fairly powerful and flexible programs by creating and using one's own methods, at higher and higher levels of abstraction.
+
+There was a slightly tricky concept introduced today and that was the issue of <a title="Variables in Ruby" href="http://ruby.about.com/od/variables/a/Everything-You-Need-To-Know-About-Variables.htm" target="_blank"><em>scope</em></a>. After we created our own method, we included a variable in its argument. But, however natural it seemed to want to pass in a value from an external variable (i.e. from outside our method), it is not possible to do so. Methods in Ruby cannot see variables external to themselves, though they can call external methods. Even though it is not possible to pass in an external variable, there is a way to access external values and that is through the only door into the method—its argument. The argument of our newly defined (private) method is really the only 'door' into it, and that is how we pass values into it. I did not find this intuitive and I suspect it will take some getting used to.
+
+Finally, we were introduced to arrays, which really expand the power of what we can do. Whereas variables only hold one value at a time, an array can hold a virtually unlimited number. And we can apply a lot of useful methods to these arrays and store them in variables, and they are clearly going to be a critical tool for us going forward. In addition, Raghu pointed out that most everything on the web is really (once you strip away the styling) just a list or series of lists. So we will have to learn how to manage and manipulate lists in Ruby fairly comfortably, when it comes time to using Rails.
+
+I am excited to continue learning Ruby, and I hope to make my way through the rest of the textbook (we are following Chris Pine's <em>Learning to Program</em>), completing all the exercises, so I solidify and build upon the concepts I have learned.

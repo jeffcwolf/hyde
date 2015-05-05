@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Class 7: Jan. 21, 2015 [Ruby]"
+date:   2015-01-21 22:43:24
+categories: starter league
+---
+
+[We did not have class on Monday, January 19 as it was the MLK, Jr. Holiday]
+
+Today was our final class on Ruby, by itself. It was largely review: we went through the essentials of Ruby that we need to know in order to begin with Rails, which we will definitely do on Friday.
+
+We also covered some new material that was in Pine but that we had not discussed explicitly in class. These had to do with understanding and using the Return keyword when we define our methods, and how we can create our own Classes in Ruby (just as we can create our own methods).
+
+In terms of using Return: it's critical to understand the notion of a method 'returning' its last evaluated statement, if we do not explicitly give it a Return keyword. And however intuitive it sometimes seems to place a puts statement at the end of a method, we learned that the puts method in Ruby always evaluates to <strong>nil</strong>, even if it appears to evaluate to whatever is put (as a string) to the screen. This is a critical distinction. Basically, it makes sense - for clarity, if nothing else - to include an explicit Return statement at the end of our methods, so that we know what value will get passed through.
+
+The ability to create our own Classes is really powerful stuff, especially when combined with the concept of inheritance. This will become more clear as we begin using Rails because we will piggyback off of (inherit) a lot of the Rails classes that in turn come with very powerful methods built-in. So we can create our own Classes for our own web app and then inherit Rails methods to do what we want. Rails is, according to Raghu, essentially a set of pre-written Classes with extremely powerful (web app-oriented) methods built in. We will be able to harness this power when creating our own web app, using Rails
+
+I am excited to dive into Rails, starting next class (this Friday). We will be focused on it pretty intensely for the next 5 weeks or so, followed by some Javascript to round out the class.

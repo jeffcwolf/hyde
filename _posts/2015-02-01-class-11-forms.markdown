@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Class 11: Jan. 30, 2015 [CRUD &amp; Forms]"
+date:   2015-02-01 01:04:14
+categories: starter league
+---
+
+Yesterday, we continued learning about CRUD. We basically knew the R part (Read), but the rest was not yet on our radar. We also learned how to create forms in order to capture input from our users rather than simply capturing what is typed in the URL.
+
+Before I get into that, however, I should mention a couple of distinctions that Raghu made which clarified our workflow. First, he emphasised that we are no longer printing our pages to the screen; we are actually asking Rails to print to the source code so that the browser can read it. In many cases, we are not generally printing something (while writing eRuby) for our users to be able to read it (when we do want to do this, we use HTML/CSS). I found it helpful to imagine that, in quite a number of cases, we are actually printing something that will become the source code for browser's to read. Second, Rails reads our routes file from top to bottom and stops at its first match. This is good to know because there will be cases when we need to arrange our routes differently, in order to avoid problems.
+
+Now, for <strong>C</strong>reating and <strong>U</strong>pdating our database tables, we really need to be cognizant of two steps:
+<ol>
+  <li>We will ordinarily first create forms for our users to fill out so we can capture their input</li>
+  <li>Then we will manage that form data in order to create or update the relevant row in our database table. This means getting the RCAV to work and then writing the action logic to interface with the database. Now, the process will be slightly different depending on whether we are creating or updating our tables: in the former, we create the form first, then the RCAV, then the action logic. For the latter, we write the RCAV for the form (which we already have), pre-populate the form for display, then finally write the action logic to update the database.</li>
+</ol>
+
+In a basic sense, Raghu told us that the 4 CRUD operations (<strong>C</strong>reate, <strong>R</strong>ead, <strong>U</strong>pdate, &amp; <strong>D</strong>elete) are at the heart of most web applications. Web processes are simply CRUD operations on one or more tables.
+
+This was the basic content of the class, and we certainly learned a bunch of new material. In the final 20-30 minutes, Raghu wanted us to consider a few things, as we move forward:
+<ul>
+  <li>First, we should begin to <strong>fork </strong>GitHub projects that we use in class to our own GitHub accounts. Then, after we complete our homework, we can upload our work to GitHub, which will facilitate code reviews and get us comfortable working with git. This is how professional developers work, and it's time we get into the habit of doing the same.</li>
+  <li>Second, before we move on, it's critical that we have the CRUD workflow in Rails down pat. We ought to be able to do all these actions (what Raghu calls the 7 Golden Actions of CRUD) from scratch and automatically. Thus, we need to do the homework until this workflow becomes automatic, until it hurts! In fact, there is a certain amount of pain and frustration built into our struggling to do this, once, twice, thrice - or as long as it takes until we no longer have any issues or can write all these actions from scratch.</li>
+</ul>
+
+<strong>10,000 Hours of Deliberate Practice</strong>
+
+The final 15 minutes of the class was devoted to the larger issue of our working hard to become competent developers. Raghu introduced us to the concept of 10,000 hours of deliberate practice to establish expertise in any given field. I am quite familiar with  this, actually, (in the content of my interest in the Learning Sciences), and was impressed with Raghu's summary and explanation. And he showed us a video from the <a title="The Dan Plan" href="http://thedanplan.com" target="_blank">DanPlan Project</a>, which is a real world experiment by Dan McLaughlin to become a professional golfer after 10,000 hours of deliberate practice, starting from scratch at age 30. He is now about halfway through. It's inspiring to see.
+
+Raghu's point for us is that we should not compare our progress to anyone else's, only to how we were doing yesterday. As long as we are making a little progress each day - in the context of our own work - then we too will become better and better. Furthermore, our goal here is not necessarily to become the best Ruby developers in the world. That takes years of experience. But we are trying to get to the point where we can make our ideas real and build apps that function and realise them. And that is certainly within our reach.

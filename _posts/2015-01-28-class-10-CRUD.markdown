@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Class 10: Jan. 28, 2015 [RCAV + CRUD Review]"
+date:   2015-01-28 22:59:02
+categories: starter league
+---
+
+Today was a day of consolidation and practice of what we have learned so far. We practiced setting up an application from scratch, creating and debugging RCAVS and adding CRUD actions. We did this for quite a long time and did not review much new material. But this was what was needed; consolidation and practice of what we already have learned but have not yet mastered.
+
+For instance, some of us have not mastered the 'each' method yet. Raghu says we need to have this down cold. We should go home and write 100 of them, using arrays and hashes, until we've mastered it. And spaced repetition of these methods and workflow processes is going to be key, if we want to hard-code this into our long-term memories.
+
+There is not much to add here at the moment; we did not learn anything conceptually new today.
+
+I will say that, in addition to these class reflection posts, I hope to start writing about the web app that I will build—why I want to build it, what I hope it contains, etc. More to come!

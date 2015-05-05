@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Class 9: Jan. 26, 2015 [RCAV to ActiveRecord]"
+date:   2015-01-26 23:07:28
+categories: starter league
+---
+
+Today was a dense day. We reviewed our knowledge of the RCAV cycle, writing dynamic routes, modifying controllers and their actions, and rendering everything using view templates. We solidified what we knew about the params hash, and how we can determine its dynamic key using a symbol.
+
+In part to work with this, we were for the first time introduced to the Rails console, which is very much like the IRB in ruby, but supercharged with all the extra methods and power of Rails built on top of it. Raghu also emphasised how, at least at this stage, we can use our server log (and development log too) to diagnose errors in our code.
+
+Raghu reiterated the importance of developing a problem-solving workflow:
+<ul>
+    <li>Work in very SMALL steps</li>
+    <li>Work on the big, easy parts of a problem or block of code first, then you can continue to the smaller, harder parts</li>
+    <li>This is another way of saying: work incrementally and iteratively.</li>
+    <li>And, finally, read the instructions, or the features of the problem, thoroughly and carefully.</li>
+</ul>
+
+Another point that was brought out, in terms of the RCAV, is how every action, every RCAV itself, is truly independent of all the others. And, in fact, we should not try to mix actions from one RCAV with another one. They are truly independent of each other, and only temporary (as long as the route lasts). Thus each RCAV cycle should be treated independently. Note, as well, that we generally use Controllers to group or collect related actions together, and while there is no right or wrong here, we will come to see some established conventions for deciding how to group them.
+
+About two-thirds the way through class, we finally came to a new, critical concept. Raghu stressed that the Ruby classes that we will use to manage the data for our web applications will normally be stored in our Models folder, which we have not discussed yet. But these classes - and that folder - will be critical and in fact the heart of our web applications. This is where our data will live, and we are going to spend much of our time there.
+
+This is because, to get real power out of our apps, we need to store our data in a persistent state, rather than temporarily in variables inside of our RCAVs. That is, what we really need to start using are <strong>databases</strong>. This is how we store permanent information and will bring great power to our applications.
+
+<strong>Databases in Rails (ActiveRecord)</strong>
+
+We talked about the use of Rails generators to help us get started, with the caveat that we should not rely on these until *after* we understand all the code they generate. This was also the first time we encountered the rake command, e.g. in rake db:migrate.
+
+We will, for the time being, use the Rails console to explore the content and features of the database(s) we create, though eventually the web app itself will be our graphical interface to the database. In fact, according to Raghu, web apps are <em>nothing more than the visual interfaces for our database tables</em>; that is what web applications really are.
+
+We talked about how creating a Ruby Class was our way of interacting with a database and that our Class is equivalent to a Database Table and that our instance variables are equivalent to the rows of the database. Next class we will create forms so we can interact with the database in a more efficient way but for we now we will use the Rails console.
+
+In short, we are really starting to add power to our web apps. I am excited to learn more about how databases work in Rails because they are so fundamental.

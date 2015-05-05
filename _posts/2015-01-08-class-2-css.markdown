@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Class 2: Jan. 7, 2015 [CSS]"
+date:   2015-01-08 00:26:29
+categories: starter league
+---
+
+Today was all about HTML and CSS, the latter in particular. In the course of things, we also learned some cool tricks to enhance our workflow in the Sublime Text editor. One really gets the sense, when watching Raghu code, how much time one can save once one knows all the keyboard shortcuts and tricks. It's a matter of experience, I guess.
+
+I also found it remarkable how much one can code by hand, not just how much but how precise one can be. Also, as we learned the box model of HTML layout—how we should consider all elements on the Internet as box elements, and that all the various layouts and cool designs we see are really just transformations of the initial box elements, I experienced new insight into web design.
+
+I was also struck by how one can use a modern browser (Google Chrome or Firefox, say) to great effect as a developer, by examining elements of the source code. All of a sudden the bones of the Internet become readily apparent, and it's clear how one can reverse engineer and learn from other peoples' websites.
+
+I had a light-bulb moment: when Raghu showed us the <a title="Tilt 3D" href="https://addons.mozilla.org/en-us/firefox/addon/tilt/" target="_blank">Tilt 3d</a> Firefox Add-on, not to mention <a title="Google Web Fonts" href="https://www.google.com/fonts" target="_blank">Google Web Fonts</a>, I got a giddy feeling of excitement. It really energised me to learn about, and to join, the world of web development and software development in general because it opened up a window onto an entire world of amazing tools and applications that I can use, and perhaps one day develop myself for others to use. Even more generally, it gave me a strong desire to join a community of problem solvers: folks who use software and technology to address the most pressing issues we face.
+
+I have not found anything to be unclear or 'fuzzy' yet. This is partly due to my basic familiarity with web design (but I stress 'basic'), but it is also a testament to Raghu's teaching and guidance thus far.
+
+I am excited to try my hand at the homework assignments so I can build upon my knowledge and experience with both HTML and CSS. And I want to begin to sketch out the opening page of my web app, using what I've learned.
+
+The only hiccup I have is that I still need to finish my final corrections to my PhD dissertation - the sooner the better - and this takes away some of the time and energy I'd rather focus on Web Development. But I expect to have these corrections done in the next week - mostly done by the end of this weekend - so that they are no longer a distraction.
+
+For there is much to do!
